@@ -13,10 +13,9 @@ class PesapalServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Publish config
-        $configPath = __DIR__ . '/config/pesapal.php';
-        //$this->publishes([$configPath => config_path('pesapal.php')], 'config');
-        $this->publishes([$configPath => config_path('pesapal.php')]);
+        $this->publishes([
+            __DIR__.'/../config/pesapal.php' => config_path('pesapal.php'),
+        ]);
     }
 
     /**
