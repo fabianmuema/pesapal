@@ -18,10 +18,10 @@
     "extra": {
         "laravel":{
             "providers": [
-                "Fabian\\Pesapal\\PesapalServiceProvider"
+                "fabianmuema\\Pesapal\\PesapalServiceProvider"
             ],
             "aliases": {
-                "Pesapal": "Fabian\\Pesapal\\Facades\\Pesapal"
+                "Pesapal": "fabianmuema\\Pesapal\\Facades\\Pesapal"
             }
         }
     }
