@@ -16,12 +16,12 @@
         "php": ">=8.1"
     },
     "extra": {
-        "laravel":{
+        "laravel": {
             "providers": [
-                "fabianmuema\\pesapal\\PesapalServiceProvider"
+                "Fabianmuema\\Pesapal\\PesapalServiceProvider"
             ],
             "aliases": {
-                "Pesapal": "fabianmuema\\pesapal\\Facades\\Pesapal"
+                "Pesapal": "Fabianmuema\\Pesapal\\PesapalFacade"
             }
         }
     }

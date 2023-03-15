@@ -3,11 +3,6 @@
 namespace Fabian\Pesapal;
 use Exception;
 
-
-// vim: foldmethod=marker
-
-/* Generic exception class
- */
 if(!class_exists("OAuthException") ) {
 	class OAuthException extends Exception {
 	  // pass
@@ -33,7 +28,6 @@ if(!class_exists("OAuthConsumer") ) {
 
 if(!class_exists("OAuthToken") ) {
 	class OAuthToken {
-	  // access tokens and request tokens
 	  public $key;
 	  public $secret;
 	
