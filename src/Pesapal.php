@@ -5,7 +5,6 @@ namespace Fabian\Pesapal;
 include 'OAuth.php';
 
 use Session;
-
 class Pesapal
 {
     /**
