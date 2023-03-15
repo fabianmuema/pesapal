@@ -25,11 +25,5 @@ class PesapalServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        include __DIR__.'/routes.php';
-        $this->app->make('Knox\Pesapal\PesapalAPIController');
-        $this->app->bind('pesapal', function()
-        {
-            return new \Knox\Pesapal\Pesapal;
-        });
     }
 }
