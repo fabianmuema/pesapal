@@ -11,6 +11,16 @@
             "role": "Senior Software Engineer"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Fabian\\Pesapal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fabian\\Pesapal\\": "tests/"
+        }
+    },
     "minimum-stability": "stable",
     "require": {
         "php": ">=8.1"
@@ -21,7 +31,7 @@
                 "Fabian\\Pesapal\\PesapalServiceProvider"
             ],
             "aliases": {
-                "PesaPal": "Fabian\\Pesapal\\Facades\\Pesapal"
+                "Pesapal": "Fabian\\Pesapal\\Facades\\Pesapal"
             }
         }
     }
