@@ -1,0 +1,23 @@
+{
+    "name": "fabianmuema/pesapal",
+    "description": "A laravel package that integrates into the pesapal api",
+    "keywords": ["pesapal","laravel 10 mpesa pesa pal","MPESA","payments","VISA","Mastercard","Orange Money", "billing gateway", "pesa pal payment integration"],
+    "homepage": "https://github.com/fabianmuema/pesapal",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Muema",
+            "email": "muemafabian@gmail.com",
+            "role": "Senior Software Engineer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fabian\\Pesapal\\": "src/"
+        }
+    }
+}
