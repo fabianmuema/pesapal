@@ -1,2 +1,5 @@
 # Pesapal Laravel >= 8 API
-Laravel 8 Package for the Pesapal API
+Laraval package to work with the Pesapal Payment gateway
+
+## Installation
+`composer require fabianmuema/pesapal`
